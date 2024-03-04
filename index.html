@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300;400;600&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
+    <title>Varan.Shop</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo"></div>
+        <ul class="menu">
+            <li><a href="index.html">Главная</a></li>
+            <li id="inside">О нас
+                <ul class="drop">
+                    <li><a href="1.html">Спайк</a></li>
+                    <li><a href="2.html">Леон</a></li>
+                    <li><a href="3.html">Генерал Гавс</a></li>
+                </ul>
+            </li>
+            <li>Связаться с нами</li>
+        </ul>
+        <button>Заказать+</button>
+    </header>
+    <main>
+        <h1>Развивайтесь Интеллектуально</h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ny15etGig9I?si=6-AbwV4RRvnFSZE7"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        <h2>Коментарии</h2>
+        <div class="comment_section">
+            <div class="comment">
+                <div class="ava"></div>
+                <spam>Варан:</spam>
+                <spam>ЭТО АВТОРСКИЙ КОНТЕНТ.</spam>
+
+
+
+            </div>
+            <div class="comment">
+                <div class="ava"></div>
+                <spam>Коза:</spam>
+                <spam>:(...</spam>
+            </div>
+        </div>
+        <div class="owl-carousel">
+            <img src="https://blog.stanis.ru/imgs/160529.jpg" alt="">
+            <img src="https://blog.stanis.ru/imgs/160529.jpg" alt="">
+            <img src="https://blog.stanis.ru/imgs/160529.jpg" alt="">
+            <img src="https://blog.stanis.ru/imgs/160529.jpg" alt="">
+            <img src="https://blog.stanis.ru/imgs/160529.jpg" alt="">
+            <img src="https://blog.stanis.ru/imgs/160529.jpg" alt="">
+            <img src="https://blog.stanis.ru/imgs/160529.jpg" alt="">
+            <img src="https://blog.stanis.ru/imgs/160529.jpg" alt="">
+        </div>
+    </main>
+    <footer>
+        <ul class="menu">
+            <li>Главная</li>
+            <li id="inside">О нас
+                <ul class="drop">
+                    <li>О нас</li>
+                    <li>С нами</li>
+                    <li>Возле нас</li>
+                </ul>
+            </li>
+            <li>Связаться с нами</li>
+        </ul>
+    </footer>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.owl-carousel').owlCarousel({
+                loop: true,
+                margin: 10,
+                responsiveClass: true,
+                arrows: false,
+                responsive: {
+                    1000: {
+                        items: 5,
+                        nav: true,
+                        loop: false
+                    }
+                }
+            })
+        }); 
+    </script>
+</body>
+
+</html>
