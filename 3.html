@@ -1,74 +1,52 @@
 <!DOCTYPE html>
 <html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300;400;600&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
+        <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
+        <link rel="stylesheet" href="style.css">
+        <title>Varan.Shop</title>
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300;400;600&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
-    <title>Varan.Shop</title>
-</head>
+    <body>
+        <header>
+            <div class="logo"></div>
+            <ul class="menu">
+                <li><a href="index.html">Главная</a></li>
+                <li class="inside">О нас
+                    <ul class="drop">
+                        <li><a href="1.html">Спайк</a></li>
+                        <li><a href="2.html">Леон</a></li>
+                        <li><a href="3.html">Генерал Гавс</a></li>
+                    </ul>
+                </li>
+                <li>Связаться с нами</li>
+            </ul>
+            <button>Заказать+</button>
+        </header>
 
-<body>
-    <header>
-        <div class="logo"></div>
-        <ul class="menu">
-            <li><a href="index.html">Главная</a></li>
-            <li id="inside">О нас
-                <ul class="drop">
-                    <li><a href="1.html">Спайк</a></li>
-                    <li><a href="2.html">Леон</a></li>
-                    <li><a href="3.html">Генерал Гавс</a></li>
-                </ul>
-            </li>
-            <li>Связаться с нами</li>
-        </ul>
-        <button>Заказать+</button>
-    </header>
-    <main>
-    <h1>Генерал Гавс</h1>
-    <img src="https://kartinki.pibig.info/uploads/posts/2023-04/1681719055_kartinki-pibig-info-p-kartinka-generala-gavs-arti-krasivo-60.jpg" alt="">
-    <h2>Гавс — боец со средне-низким здоровьем и средне-низким уроном, компенсирующимся быстрой скоростью перезарядки и атаки, а также Супером. Он выпускает 2 снаряда, отскакивающие от стен, а при помощи Супера наносит урон по области и приносит усиление себе и своей команде. С первым гаджетом Гавс ставит преграду из песка с Health icon1500 ед. здоровья. Со вторым гаджетом он бомбардирует врагов, нанося средне-низкий урон. Звёздная сила «Воздушное превосходство» увеличивает урон от Супера и даёт возможность ломать стены, а «Продвижение по службе» восстанавливает и увеличивает здоровье союзникам поблизости.</h2>
-    </main>
-    <footer>
-        <ul class="menu">
-            <li>Главная</li>
-            <li id="inside">О нас
-                <ul class="drop">
-                    <li>О нас</li>
-                    <li>С нами</li>
-                    <li>Возле нас</li>
-                </ul>
-            </li>
-            <li>Связаться с нами</li>
-        </ul>
-    </footer>
+        <main>
+        <h1>Генерал Гавс</h1>
+        <img src="https://kartinki.pibig.info/uploads/posts/2023-04/1681719055_kartinki-pibig-info-p-kartinka-generala-gavs-arti-krasivo-60.jpg" alt="">
+        <h2>Гавс — боец со средне-низким здоровьем и средне-низким уроном, компенсирующимся быстрой скоростью перезарядки и атаки, а также Супером. Он выпускает 2 снаряда, отскакивающие от стен, а при помощи Супера наносит урон по области и приносит усиление себе и своей команде. С первым гаджетом Гавс ставит преграду из песка с Health icon1500 ед. здоровья. Со вторым гаджетом он бомбардирует врагов, нанося средне-низкий урон. Звёздная сила «Воздушное превосходство» увеличивает урон от Супера и даёт возможность ломать стены, а «Продвижение по службе» восстанавливает и увеличивает здоровье союзникам поблизости.</h2>
+        </main>
 
-
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="owlcarousel/owl.carousel.min.js"></script>
-    <script>
-        $(document).ready(function () {
-            $('.owl-carousel').owlCarousel({
-                loop: true,
-                margin: 10,
-                responsiveClass: true,
-                arrows: false,
-                responsive: {
-                    1000: {
-                        items: 5,
-                        nav: true,
-                        loop: false
-                    }
-                }
-            })
-        }); 
-    </script>
-</body>
-
+        <footer>
+            <ul class="menu">
+                <li>Главная</li>
+                <li class="inside">О нас
+                    <ul class="drop">
+                        <li>О нас</li>
+                        <li>С нами</li>
+                        <li>Возле нас</li>
+                    </ul>
+                </li>
+                <li>Связаться с нами</li>
+            </ul>
+        </footer>
+    </body>
 </html>
